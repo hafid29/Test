@@ -16,10 +16,18 @@ Routing ditangani oleh /routes/web.php dan memeriksa Auth::check().
 2. Autentikasi (Login dan Register)
 Fitur login dan register menggunakan AuthController:
 - Login memverifikasi email dan password, jika berhasil diarahkan ke halaman produk.
+
+  ![image](https://github.com/user-attachments/assets/99e2eb5d-ccb8-4faf-866a-f5a5472a387a)
+
 - Register menyimpan user baru dan langsung login.
+
+  ![image](https://github.com/user-attachments/assets/dc7f83f7-1b76-4682-8263-1b7ca10dc2bf)
+
 Route login dan register ditentukan di web.php.
 View disimpan di resources/views/auth/login.blade.php dan register.blade.php.
 3. Daftar Produk (index.blade.php)
+  ![image](https://github.com/user-attachments/assets/1bcb10e6-9030-408d-8b42-3bbcdd54cc73)
+
 Menampilkan daftar produk dalam bentuk tabel.
 Fitur:
 - Pencarian berdasarkan nama produk.
@@ -47,3 +55,5 @@ AuthController menangani:
 - loginForm(), login()
 - registerForm(), register()
 Semua menggunakan Laravel Auth dan Validasi.
+![image](https://github.com/user-attachments/assets/31fa68bf-36ca-4556-9aaa-ba1bd2c4870a)
+
